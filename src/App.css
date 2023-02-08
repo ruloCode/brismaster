@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
 
+  margin-top: 1rem;
 
 }
 .donate-btn span {
@@ -26,7 +27,10 @@
   font-weight: 500;
 
   margin-right: .5rem;
+
 }
+
+
 
 
 
@@ -35,6 +39,11 @@
   pointer-events: none;
 }
 .paypal-logo {
+  margin-top: .3rem;
+  pointer-events: none;
+  width: 80px;
+}
+.venmo-logo {
   margin-top: .3rem;
   pointer-events: none;
 }

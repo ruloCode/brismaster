@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import paypal from "./paypal.svg";
+import venmo from "./venmo.svg";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,15 @@ function App() {
         >
           <span>Donate with</span>
           <img src={paypal} className="paypal-logo" alt="logo" />
+        </a>
+        <a
+          className="donate-btn"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Donate with</span>
+          <img src={venmo} className="paypal-logo" alt="logo" />
         </a>
       </header>
     </div>
