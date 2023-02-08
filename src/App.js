@@ -1,21 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import paypal from "./paypal.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Estamos creando brismaster.com
-        </p>
+        <p>We are creating OCAAT</p>
         <a
-          className="App-link"
+          className="donate-btn"
           href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Donar
+          <span>Donate with</span>
+          <img src={paypal} className="paypal-logo" alt="logo" />
         </a>
       </header>
     </div>
